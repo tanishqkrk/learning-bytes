@@ -7,25 +7,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <section class="header">
+    <section class="header section">
         <header class="header__head container-fluid">
             <div class="row">
-                <div class="header__head--name">Name</div>
-                <div class="header__head--menu">Menu items</div>
-                <div class="header__head--signin">Sign in</div>
+                <div class="header__head--name col-md-3">
+
+                    <div class="header__head--name-logo">
+                        <a href="#" class="header__head--name-logo--img"><img src="./assests/header/logo.webp" alt=""
+                                class="header__head--name-logo-img"></a></div>
+                    <div class="header__head--name-name">
+                        <a href="#" class="header__head--name-name--title header__head--element">
+                            The Cornerstones
+                            Community
+                        </a>
+                    </div>
+
+
+                </div>
+                <div class="header__head--menu col-md-6">
+                    <div class="header__head--aboutus"><a href=""
+                            class="header__head--aboutus-text header__head--element">About us</a></div>
+                    <div class="header__head--careers"><a href=""
+                            class="header__head--aboutus-text header__head--element">Careers</a></div>
+                    <div class="header__head--courses"><a href=""
+                            class="header__head--aboutus-text header__head--element">Courses</a></div>
+                    <div class="header__head--blog"><a href=""
+                            class="header__head--aboutus-text header__head--element">Blog</a></div>
+                    <div class="header__head--contact"><a href=""
+                            class="header__head--aboutus-text header__head--element">Contact</a></div>
+                </div>
+                <div class="header__head--signin col-md-3"><a href=""
+                        class="header__head--signin-text header__head--element">Sign in</a></div>
             </div>
         </header>
     </section>
 
-    <section class="content">
+    <section class="content section">
         <div class="content__hero container-fluid">
-            <div class="row">
-                <div class="content__hero--slogan">Slogan</div>
-                <div class="content__hero--svg">SVG</div>
-            </div>
+
+            <div class="content__hero--slogan col-md-6">Put the <span class="content__hero--slogan-extra">extra</span>
+                in
+                ordinary!</div>
+            <div class="content__hero--svg col-md-6"><img src="./assests/hero/3785210.jpg" alt=""
+                    class="content__hero--svg-img" width="100%"></div>
+
         </div>
         <div class="content__aboutus container-fluid">
             <div class="content__aboutus--title">About us</div>
@@ -46,7 +80,7 @@
         </div>
     </section>
 
-    <section class="footer">
+    <section class="footer section">
         <div class="footer__foot container-fluid">
             <div class="row">
                 <div class="footer__foot--orglinks">Organization Links</div>
