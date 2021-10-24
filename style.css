@@ -146,6 +146,12 @@ body {
     /* text-transform: lowercase; */
 }
 
+.content__weoffer--courses {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .content__weoffer--title {
     font-size: 50px;
     text-align: center;
@@ -156,4 +162,122 @@ body {
     text-align: center;
     font-size: 20px;
     opacity: .7;
+}
+
+.content__weoffer--courses-card {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    background-color: white;
+    border-radius: 15px;
+    margin: 25px;
+    transition: .3s;
+    box-shadow: 0 0 0;
+    user-select: none;
+    /* padding: 0; */
+}
+
+.content__weoffer--courses-card:hover {
+    box-shadow: 0 1px 10px black;
+}
+
+
+.content__weoffer--courses-card-text {
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.content__weoffer--courses-card-duration {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.content__weoffer--courses-card-details {
+    margin: 15px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.content__weoffer--courses-card-pricing {
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    /* background-color: #dfdfdf; */
+
+}
+
+.content__weoffer--courses-card-price {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #6078EA;
+    padding: 0;
+}
+
+.content__weoffer--courses-card--button {
+    padding: 0;
+}
+
+.content__weoffer--courses-card-button {
+    text-align: center;
+    padding: 10px;
+    /* border: 1px solid red; */
+    background-color: #6078EA;
+    border-radius: 10px;
+    color: #FAF8F8;
+    font-size: 20px;
+    transition: .3s;
+}
+
+.content__weoffer--courses-card-button:hover {
+    text-decoration: none;
+    background-color: #9fafff;
+    color: #303841;
+}
+
+.content__weoffer--courses-card-img-img {
+    /* display: flex; */
+    /* justify-content: center; */
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.content__weoffer--courses-card--img {
+    display: flex;
+    justify-content: center;
+}
+
+.content__weoffer--muchmore {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    opacity: .8;
+}
+
+.content__weoffer--viewcourses {
+    display: flex;
+    justify-content: center;
+}
+
+.content__weoffer--viewcourses-button {
+    user-select: none;
+    text-align: center;
+    margin: 25px 0;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: #6078EA;
+    color: #FAF8F8;
+    transition: .3s;
+}
+
+.content__weoffer--viewcourses-button:hover {
+    background-color: #9fafff;
+    text-decoration: none;
+    color: #303841;
 }
