@@ -16,6 +16,7 @@ body {
 /* width */
 ::-webkit-scrollbar {
     width: 5px;
+    height: 5px
 }
 
 /* Track */
@@ -39,8 +40,8 @@ body {
     margin: 20px 0;
 }
 
-.hero__section--margin {
-    margin: 8% 0;
+.content__section--margin {
+    margin: 155px 0;
 }
 
 .header {
@@ -167,7 +168,7 @@ body {
 .content__weoffer--courses-card {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     background-color: white;
     border-radius: 15px;
     margin: 25px;
@@ -281,4 +282,87 @@ body {
     background-color: #9fafff;
     text-decoration: none;
     color: #303841;
+}
+
+.content__whyus--title-img {
+    width: 50%;
+    /* height: 10%; */
+    /* transform: scale(.4); */
+}
+
+.content__whyus--title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 600;
+    text-decoration: underline dotted #6078EA;
+
+}
+
+.content__whyus--reasons {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: auto;
+    grid-gap: 20px 20px;
+    padding: 0 50px;
+}
+
+.content__whyus--reasons-reason {
+    height: 2fr;
+    width: 2fr;
+    /* box-shadow: 0 2px 8px 0 black; */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 80px 20px;
+    user-select: none;
+    background-color: #d4d9f5;
+    transition: .5s;
+
+}
+
+.content__whyus--reasons-reason:hover {
+    background-color: #6078EA;
+    color: white;
+    transform: translate(0, -10px);
+}
+
+.footer {
+    background-color: #FAF8F8;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.footer__foot-orglinks-org {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__foot-orglinks-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__foot-orglinks-title-text {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.footer__foot-orglinks-link-text {
+    font-size: 25px;
+    font-weight: 300;
+    transition: .3s;
+}
+
+.footer__foot-orglinks-link-text:hover {
+    text-decoration: none;
+    color: #303841;
+    font-weight: 500;
 }
