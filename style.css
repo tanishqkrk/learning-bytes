@@ -15,6 +15,7 @@ body {
 
 * {
     user-select: none;
+    transition: .3s;
 }
 
 /* width */
@@ -79,12 +80,13 @@ body {
     display: flex;
     /* flex-wrap: nowrap; */
     align-items: center;
-    justify-content: space-evenly;
-    text-align: center;
+    justify-content: center;
+    text-align: left;
 }
 
 .header__head--name-logo-img {
-    width: 60px;
+    width: 150px;
+    padding: 5px 0;
 }
 
 .header__head--name-name-title {
@@ -172,7 +174,7 @@ body {
 .content__weoffer--courses-card {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: white;
     border-radius: 15px;
     margin: 25px;
@@ -341,7 +343,8 @@ body {
 
 .footer {
     background-color: #FAF8F8;
-    padding-bottom: 50px;
+    height: 70vh;
+    /* padding-bottom: 50px; */
     padding-right: 50px;
     padding-left: 50px;
 }
@@ -376,4 +379,70 @@ body {
     text-decoration: none;
     color: #303841;
     font-weight: 500;
+}
+
+.footer__foot--smlinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.footer__foot--smlinks-title {
+    padding-bottom: 25px;
+}
+
+.footer__foot--smlinks-links {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__foot--smlinks-link-img {
+    padding: 0 15px;
+    transform: scale(.7);
+    transition: .3s;
+}
+
+.footer__foot--smlinks-link-img:hover {
+    /* transform: scale(.8); */
+    transform: translate(0, -15px);
+}
+
+
+.footer__foot-tandc-org {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__foot-tandc-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__foot-tandc-title-text {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.footer__foot-tandc-link-text {
+    font-size: 25px;
+    font-weight: 300;
+    transition: .3s;
+}
+
+.footer__foot-tandc-link-text:hover {
+    text-decoration: none;
+    color: #303841;
+    font-weight: 500;
+}
+
+.footer__foot--smlinks-img {
+    width: 250px;
+}
+
+.footer__foot--copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
