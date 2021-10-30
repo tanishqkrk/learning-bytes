@@ -577,4 +577,86 @@ body {
             font-size: 15px;
         }
     }
-}
+
+    @media (max-width: 822px) {
+        .content__hero--slogan {
+            font-size: 70px;
+        }
+
+    }
+
+    @media (max-width: 768px) {
+        .content__hero--slogan {
+            font-size: 100px;
+            text-align: center;
+        }
+
+        .content__hero--svg {
+            display: none;
+        }
+
+        .content__weoffer--courses-card-img-img {
+            width: 25%;
+
+        }
+
+        .content__weoffer--courses-card {
+            justify-content: center;
+            margin: 15px 0;
+        }
+
+        .content__weoffer--courses-card-button {
+            font-size: 2vw;
+        }
+
+        @media (max-width: 576px) {
+            .content__hero--slogan {
+                font-size: 80px;
+            }
+        }
+
+        @media(max-width: 480px) {
+            .footer {
+                padding: 0;
+            }
+
+            .footer__foot--smlinks-img {
+                width: 90%;
+            }
+
+            .footer__foot--smlinks-link-img {
+                /* transform: scale(.5); */
+            }
+
+            .content__hero--slogan {
+                height: 80vh;
+                padding-top: 50px;
+            }
+        }
+
+        @media(max-width: 455px) {
+            .content__hero--slogan {
+                font-size: 70px;
+            }
+
+            .content__hero--slogan {
+                font-size: 70px;
+            }
+
+            .footer__foot--smlinks-links {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .footer__foot--copyright-text {
+                font-size: 11px;
+            }
+        }
+
+        @media(max-width: 380px) {
+            .content__hero--slogan {
+                font-size: 60px;
+            }
+        }
+    }
