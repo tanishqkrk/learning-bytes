@@ -13,6 +13,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -20,29 +22,38 @@
         <header class="header__head container-fluid">
             <div class="row">
                 <div class="header__head--name col-md-3 col-lg-3">
-
                     <div class="header__head--name-logo">
                         <a href="#" class="header__head--name-logo--img"><img src="./assests/header/logo.png" alt=""
                                 class="header__head--name-logo-img"></a></div>
-                    <div class="header__head--name-name">
-                        <!-- <a href="#" class="header__head--name-name--title header__head--element">
-                            Learning Bytes
-                        </a> -->
-                    </div>
                 </div>
-                <div class="header__head--menu-ham col-md-9">
-                    <div class="header__head--menu-ham--img">
-                        <img src="./assests/header/ham.png" alt="" class="header__head--menu-ham-img">
-                        <div class="header__head--menu-ham-links">
-                            <div class="header__head--menu-ham-link">About us</div>
-                            <div class="header__head--menu-ham-link">Careers</div>
-                            <div class="header__head--menu-ham-link">Courses</div>
-                            <div class="header__head--menu-ham-link">Blog</div>
-                            <div class="header__head--menu-ham-link">Contact</div>
-                            <div class="header__head--menu-ham-link">Sign in</div>
+                <div class="header__head--ham col-md-9 col-lg-9">
+                    <div class="header__head--ham--icon">
+                        <img src="./assests/header/ham.png" alt="" class="header__ham--ham-icon">
+                    </div>
+                    <div class="header__head--ham--menu">
+                        <div class="header__ham--ham--menu--link">
+                            <a href="" class="header__ham--ham--menu-link">About us</a>
+                        </div>
+                        <div class="header__head--ham--menu--link">
+                            <a href="" class="header__ham--ham--menu-link">Careers</a>
+                        </div>
+                        <div class="header__head--ham--menu--link">
+                            <a href="" class="header__ham--ham--menu-link">Courses</a>
+                        </div>
+                        <div class="header__head--ham--menu--link">
+                            <a href="" class="header__ham--ham--menu-link">Blog</a>
+                        </div>
+                        <div class="header__head--ham--menu--link">
+                            <a href="" class="header__ham--ham--menu-link">Contact</a>
+                        </div>
+                        <div class="header__head--ham--menu--link">
+                            <a href="" class="header__ham--ham--menu-link">Sign in</a>
                         </div>
                     </div>
+
                 </div>
+
+
                 <div class="header__head--menu col-md-6">
                     <div class="header__head--aboutus"><a href=""
                             class="header__head--aboutus-text header__head--element">About us</a></div>
@@ -62,8 +73,7 @@
     </section>
 
     <section class="content section">
-        <div class="content__hero container-fluid">
-
+        <div class="content__hero container-fluid" data-aos="fade-up">
             <div class="content__hero--slogan col-md-6 col-lg-6">Put the <span
                     class="content__hero--slogan-extra">extra</span>
                 in
@@ -73,8 +83,12 @@
 
         </div>
         <div class="content__aboutus container-fluid content__section--margin">
-            <div class="content__aboutus--title col-md-12">About us</div>
-            <div class="content__aboutus--description col-md-12">Learning Bytes is focussing upon providing
+            <div class="content__aboutus--title col-md-12" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                data-aos-duration="2000">
+                About us</div>
+            <div class="content__aboutus--description col-md-12" data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom" data-aos-duration="2000">Learning Bytes is focussing upon
+                providing
                 premium
                 online courses through a combination of live + animated content by the best faculty in india.</div>
         </div>
@@ -380,9 +394,11 @@
 
                 </div>
             </div>
-            <div class="content__weoffer--muchmore col-md-12">And much more!</div>
+            <div class="content__weoffer--muchmore col-md-12" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                data-aos-duration="2000">And much more!</div>
             <div class="content__weoffer--viewcourses col-md-12 container">
-                <a href="#" class="content__weoffer--viewcourses-button col-md-2">
+                <a href="#" class="content__weoffer--viewcourses-button col-md-2" data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
                     View Courses
                 </a>
 
@@ -391,12 +407,15 @@
         <div class="content__whyus container-fluid content__section--margin">
             <div class="row">
                 <div class="content__whyus--title col-md-4">
-                    <div class="content__whyus--title--img">
+                    <div class="content__whyus--title--img" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                        data-aos-duration="2000">
                         <img src="./assests/whyus/think1.png" class="content__whyus--title-img" alt="">
                     </div>
-                    <div class="content__whyus--title-text">Why us?</div>
+                    <div class="content__whyus--title-text" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                        data-aos-duration="2000">Why us?</div>
                 </div>
-                <div class="content__whyus--reasons col-md-8">
+                <div class="content__whyus--reasons col-md-8" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                    data-aos-duration="2000">
                     <div class="content__whyus--reasons-reason content__whyus--reasons-reason1">Start from scratch: Get
                         your foundation strong</div>
                     <div class="content__whyus--reasons-reason content__whyus--reasons-reason2">Mentorship: Learn from
@@ -484,6 +503,10 @@
             </div>
         </div>
     </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
